@@ -1,0 +1,29 @@
+@media (max-width:750px) {
+    body{
+        background-color: brown;
+        font-size: 12px
+    }
+    .NFL{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .cartao-jogador {
+        max-width: 300px;
+
+    }
+    .cartao-jogador .cartao-imagem{
+        width: 200px; 
+        height: 200px;
+
+    }
+    .cartao-jogador .caortao-informacao{
+
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+    .cartao-jogador .caortao-informacao .informacao{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+}

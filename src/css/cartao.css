@@ -1,0 +1,88 @@
+.cartao-jogador { 
+    display: none;
+    box-shadow: rgba(178, 216, 191, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    border-radius: 10px;
+} 
+.cartao-jogador .cartao-topo{
+     padding: 30px 40px 0;
+
+}
+.cartao-jogador .nome{
+    margin-bottom: 5px;
+}
+.cartao-jogador .tipo{
+    font-size: 12px;
+    background-color: #FFFFFF ;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(178, 216, 191, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.cartao-jogador .detalhes{
+    color: #FFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartao-jogador .cartao-imagem{
+    width: 350px;
+    height: 350px;
+   
+}
+.cartao-jogador img {
+
+    max-height: 100%;
+   
+}
+.cartao-jogador .cartao-informacao {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFF;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.cartao-jogador .cartao-informacao h3 { 
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+
+}
+.cartao-jogador .cartao-informacao .status, .cartao-jogador .cartao-informacao .habolidade {
+
+    padding: 0 10px;
+    width: 180;
+}
+.cartao-jogador .cartao-informacao .habolidade ul li, .cartao-jogador .cartao-informacao .status ul li { 
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.cartao-jogador.aberto{
+    display: block;
+
+}
+.tipo-fogo{
+    background-image: url(https://www.otempo.com.br/image/contentid/policy:1.2564727:1635971034/image.jpg?f=new-layout-article-photo-gallery-fit_930&w=1200&$p$f$w=aac87e8);
+}
+.tipo-eletrico{
+    background-image: url(https://i.pinimg.com/564x/fb/8f/ba/fb8fbaa60b58a2822d5b9cd7320bfb6c.jpg);
+}
+.tipo-agua{
+    background-image: url(https://www.rochesterfirst.com/wp-content/uploads/sites/66/2020/06/gettyimages-1197528146-594x594-1.jpg?w=594);
+
+}
+.tipo-grama{
+   background-image: url(https://www.theplayoffs.com.br/wp-content/uploads/2021/02/Tom-Brady-Tampa-Bay-Buccaneers-QB.jpg); 
+}
+.tipo-trevas{
+    background-image: url(https://www.gannett-cdn.com/presto/2020/02/13/PCIN/51763142-3b03-46a2-9b8b-682a32b810f4-Burrow.jpg?width=660&height=1174&fit=crop&format=pjpg&auto=webp);
+
+
+}
+.tipo-dragao{
+    background-image: url(https://theramswire.usatoday.com/wp-content/uploads/sites/64/2022/01/USATSI_17553943.jpg?w=1000&h=600&crop=1);
+}
